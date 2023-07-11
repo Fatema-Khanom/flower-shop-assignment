@@ -258,23 +258,33 @@ header{
 .container{
     background:#FFF ;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    margin-left: 33%;
+    margin-right: 33%;
+    border-radius: 8px;
+    height: 60px;
+    gap: 180px
 }
 from{
     background: ;
-    width: px;
-    height: 55px;
+    width: 100px;
+    height: 60px;
+    justify-content: center;
     display: flex;
+    align-items: center;
 }
 form input{
     flex: 1;
     border:none ;
     outline: none;
+    max-width: 400px;
 }
-form button{
-    ba
+.submit{
+    border-radius: 8px;
+background: #E55473;
 }
+
 
 
 /* bonus section style */
@@ -295,6 +305,8 @@ form button{
   .contact-form input,
   .contact-form textarea {
     display: block;
+    border: 0;
+    height: 80px;
     width: 100%;
     padding: 10px;
     margin-bottom: 10px;
