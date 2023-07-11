@@ -7,8 +7,8 @@ body{
 /* header related style*/
 header{
     background-color: #FFF8F3;
-    width: 1920px;
-    height: 850px;
+   /* width: 100%;
+    height: 100vh;*/
 
 }
     .btn-primary{
@@ -23,17 +23,18 @@ header{
 
 .banner-title{
     color: #272727;
-    font-size: 59px;
-    font-weight: 700px;
+    font-size: 50px;
+    font-weight: 400px;
     width: 500px;
     margin-top: 5px;
     margin-bottom: 20px;
 }
 .banner-description{
-    margin-top: 5px;
     color: rgba(39, 39, 39, 0.60);
-    font-size: 18px;
+    font-size: 16px;
     font-family: Lato;
+    font-weight: 400;
+    line-height: 30px;
 
 }
 
@@ -42,7 +43,9 @@ header{
     height: 800px;
     margin-bottom: 0;
     padding-bottom: 0;
-    padding-right: 240px;
+    padding-right: 150px;
+    margin-bottom: 0px;
+    display: flex;
 }
     
 .banner-contant{
@@ -50,19 +53,131 @@ header{
     padding-top: 20px;
 }
 .banner{
-    min-height: 100vh;
-    padding: 30px 30px 0px  150px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #FFF8F3;
-    width: 1920px;
-    height: 850px;
-    background-position: center;
-
-}
-/* Our featured section style */
-.featured-container{
+    background-color: #FFF8F3; 
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    padding: auto;
+
+
+}
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+main section{
+    margin-top: 130px;
+}
+/* Our featured section style */
+.section-title{
+    color: #272727;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    font-family: lato;
+    text-align: center
+    
+}
+.section-description{
+    /*color: #27272799;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    text-align: center;*/
+
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+display: flex;
+flex-direction: column;
+}
+
+.featured-photo-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    margin-inline: 100px;
+    padding-left: 33%;
+    padding-right: 33%;
+}
+.featured-photo-1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 464px;
+    height: 538px;
+}
+.featured-photo-2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 464px;
+    height: 538px;
+}
+.featured-photo-3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(71, 125, 17, 0.15);
+    width: 464px;
+    height: 538px;
+}
+.img-1{
+    width: 310px;
+    height: 428px;
+    padding: 110px 78px 67px 76px;
+}
+.img-2{
+    width: 370px;
+    height: 370px;
+    padding: 117px 47px 118px 47px;
+}
+.img-3{
+    width: 314px;
+    height: 471px;
+    padding: 67px 75px;
+}
+.flower-name{
+    display: inline-flex;
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 10px;
+    text-decoration-line: underline;
+    padding-left: 33%;
+    padding-top: 5px;
+    margin-top: 5px;
+    padding-bottom: 0;
+}
+/* discount section */
+.discount-section{
+    background-color: #e5547315;
+    height: 440px;
+    width: ;
+    margin-inline: -8px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 100px;
+    padding-inline: 180px;
+    margin-left: -500px;
+    margin-right: -500px;
+    margin-top: 200px;
+
+}
+.discount-img{
+    width: 300px;
+    height: 400px;
+    margin-bottom: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-right: 150px;
+    margin-bottom: 0px;
+    display: flex;
 }
